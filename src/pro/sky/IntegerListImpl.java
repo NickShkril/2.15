@@ -80,7 +80,7 @@ public class IntegerListImpl implements IntegerList {
     }
 
     private void sort() {
-        SortUtils.sortInsertion(array);
+        SortUtils.quickSort(array);
     }
 
     private boolean binarySearch(Integer item) {

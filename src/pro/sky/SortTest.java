@@ -34,7 +34,15 @@ public class SortTest {
         start = System.currentTimeMillis();
         sortInsertion(arr3);
         System.out.println("Insert sort: " + (System.currentTimeMillis() - start));
-       // Insert is faster then others
+
+
+        start = System.currentTimeMillis();
+        quickSort(arr4);
+        System.out.println("Quick sort: " + (System.currentTimeMillis() - start));
+
+        start = System.currentTimeMillis();
+        mergeSort(arr5);
+        System.out.println("Merge sort: " + (System.currentTimeMillis() - start));
 
     }
 }
